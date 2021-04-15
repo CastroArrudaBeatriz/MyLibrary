@@ -3,27 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392D5F1E2627FC5400120206 /* LivroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392D5F1D2627FC5400120206 /* LivroCell.xib */; };
+		392D5F232627FCDC00120206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392D5F212627FCDC00120206 /* Main.storyboard */; };
 		39BB68502623CEF70021C382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB684F2623CEF70021C382 /* AppDelegate.swift */; };
 		39BB68522623CEF70021C382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB68512623CEF70021C382 /* SceneDelegate.swift */; };
-		39BB68542623CEF70021C382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB68532623CEF70021C382 /* ViewController.swift */; };
-		39BB68572623CEF70021C382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB68552623CEF70021C382 /* Main.storyboard */; };
+		39BB68542623CEF70021C382 /* BibliotecaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB68532623CEF70021C382 /* BibliotecaViewController.swift */; };
 		39BB68592623CEF90021C382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BB68582623CEF90021C382 /* Assets.xcassets */; };
 		39BB685C2623CEF90021C382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB685A2623CEF90021C382 /* LaunchScreen.storyboard */; };
+		39BB68652623CF400021C382 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 39BB68642623CF400021C382 /* books.json */; };
+		39BB68682623CF7E0021C382 /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB68672623CF7E0021C382 /* Livro.swift */; };
+		39BB686B2623CFA80021C382 /* Biblioteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB686A2623CFA80021C382 /* Biblioteca.swift */; };
+		39BB68702623D5FC0021C382 /* LivroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB686E2623D5FC0021C382 /* LivroCell.swift */; };
+		39BB68752623DEB90021C382 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 39BB68742623DEB90021C382 /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		392D5F1D2627FC5400120206 /* LivroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LivroCell.xib; path = "../../../../../Downloads/cesar-devapps-ios-basico-2020.1-main/iOSBasico/Xcode12/BibliotecaCESARSchool/BibliotecaCESARSchool/View/LivroCell.xib"; sourceTree = "<group>"; };
+		392D5F222627FCDC00120206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/cesar-devapps-ios-basico-2020.1-main/iOSBasico/Xcode12/BibliotecaCESARSchool/BibliotecaCESARSchool/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		39BB684C2623CEF70021C382 /* MyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB684F2623CEF70021C382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BB68512623CEF70021C382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39BB68532623CEF70021C382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39BB68562623CEF70021C382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BB68532623CEF70021C382 /* BibliotecaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaViewController.swift; sourceTree = "<group>"; };
 		39BB68582623CEF90021C382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39BB685B2623CEF90021C382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39BB685D2623CEF90021C382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BB68642623CF400021C382 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = books.json; path = ../../../../Downloads/books.json; sourceTree = "<group>"; };
+		39BB68672623CF7E0021C382 /* Livro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livro.swift; sourceTree = "<group>"; };
+		39BB686A2623CFA80021C382 /* Biblioteca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biblioteca.swift; sourceTree = "<group>"; };
+		39BB686E2623D5FC0021C382 /* LivroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivroCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +42,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BB68752623DEB90021C382 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392D5F192627E6FC00120206 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				39BB68672623CF7E0021C382 /* Livro.swift */,
+				39BB686A2623CFA80021C382 /* Biblioteca.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		392D5F1A2627EF8100120206 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				392D5F1D2627FC5400120206 /* LivroCell.xib */,
+				39BB686E2623D5FC0021C382 /* LivroCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		39BB68432623CEF70021C382 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +86,16 @@
 		39BB684E2623CEF70021C382 /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				39BB68642623CF400021C382 /* books.json */,
 				39BB684F2623CEF70021C382 /* AppDelegate.swift */,
 				39BB68512623CEF70021C382 /* SceneDelegate.swift */,
-				39BB68532623CEF70021C382 /* ViewController.swift */,
-				39BB68552623CEF70021C382 /* Main.storyboard */,
+				39BB68532623CEF70021C382 /* BibliotecaViewController.swift */,
+				392D5F212627FCDC00120206 /* Main.storyboard */,
 				39BB68582623CEF90021C382 /* Assets.xcassets */,
 				39BB685A2623CEF90021C382 /* LaunchScreen.storyboard */,
 				39BB685D2623CEF90021C382 /* Info.plist */,
+				392D5F192627E6FC00120206 /* model */,
+				392D5F1A2627EF8100120206 /* view */,
 			);
 			path = MyLibrary;
 			sourceTree = "<group>";
@@ -83,6 +116,9 @@
 			dependencies = (
 			);
 			name = MyLibrary;
+			packageProductDependencies = (
+				39BB68742623DEB90021C382 /* Nuke */,
+			);
 			productName = MyLibrary;
 			productReference = 39BB684C2623CEF70021C382 /* MyLibrary.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 39BB68432623CEF70021C382;
+			packageReferences = (
+				39BB68732623DEB90021C382 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 39BB684D2623CEF70021C382 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +163,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BB68652623CF400021C382 /* books.json in Resources */,
+				392D5F232627FCDC00120206 /* Main.storyboard in Resources */,
 				39BB685C2623CEF90021C382 /* LaunchScreen.storyboard in Resources */,
+				392D5F1E2627FC5400120206 /* LivroCell.xib in Resources */,
 				39BB68592623CEF90021C382 /* Assets.xcassets in Resources */,
-				39BB68572623CEF70021C382 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BB68542623CEF70021C382 /* ViewController.swift in Sources */,
+				39BB68542623CEF70021C382 /* BibliotecaViewController.swift in Sources */,
 				39BB68502623CEF70021C382 /* AppDelegate.swift in Sources */,
+				39BB68702623D5FC0021C382 /* LivroCell.swift in Sources */,
+				39BB68682623CF7E0021C382 /* Livro.swift in Sources */,
+				39BB686B2623CFA80021C382 /* Biblioteca.swift in Sources */,
 				39BB68522623CEF70021C382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,10 +190,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39BB68552623CEF70021C382 /* Main.storyboard */ = {
+		392D5F212627FCDC00120206 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39BB68562623CEF70021C382 /* Base */,
+				392D5F222627FCDC00120206 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -339,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39BB68732623DEB90021C382 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39BB68742623DEB90021C382 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BB68732623DEB90021C382 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 39BB68442623CEF70021C382 /* Project object */;
 }
