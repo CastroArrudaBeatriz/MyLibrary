@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		392D5F1E2627FC5400120206 /* LivroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392D5F1D2627FC5400120206 /* LivroCell.xib */; };
 		392D5F232627FCDC00120206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392D5F212627FCDC00120206 /* Main.storyboard */; };
+		39503C0F2628FB90003EBBDA /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39503C0E2628FB90003EBBDA /* BookDetailViewController.swift */; };
 		39BB68502623CEF70021C382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB684F2623CEF70021C382 /* AppDelegate.swift */; };
 		39BB68522623CEF70021C382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB68512623CEF70021C382 /* SceneDelegate.swift */; };
 		39BB68542623CEF70021C382 /* BibliotecaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB68532623CEF70021C382 /* BibliotecaViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		392D5F1D2627FC5400120206 /* LivroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LivroCell.xib; path = "../../../../../Downloads/cesar-devapps-ios-basico-2020.1-main/iOSBasico/Xcode12/BibliotecaCESARSchool/BibliotecaCESARSchool/View/LivroCell.xib"; sourceTree = "<group>"; };
 		392D5F222627FCDC00120206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/cesar-devapps-ios-basico-2020.1-main/iOSBasico/Xcode12/BibliotecaCESARSchool/BibliotecaCESARSchool/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		39503C0E2628FB90003EBBDA /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		39BB684C2623CEF70021C382 /* MyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB684F2623CEF70021C382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BB68512623CEF70021C382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				39BB685D2623CEF90021C382 /* Info.plist */,
 				392D5F192627E6FC00120206 /* model */,
 				392D5F1A2627EF8100120206 /* view */,
+				39503C0E2628FB90003EBBDA /* BookDetailViewController.swift */,
 			);
 			path = MyLibrary;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				39BB68502623CEF70021C382 /* AppDelegate.swift in Sources */,
 				39BB68702623D5FC0021C382 /* LivroCell.swift in Sources */,
 				39BB68682623CF7E0021C382 /* Livro.swift in Sources */,
+				39503C0F2628FB90003EBBDA /* BookDetailViewController.swift in Sources */,
 				39BB686B2623CFA80021C382 /* Biblioteca.swift in Sources */,
 				39BB68522623CEF70021C382 /* SceneDelegate.swift in Sources */,
 			);

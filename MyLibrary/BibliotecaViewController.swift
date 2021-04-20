@@ -24,7 +24,11 @@ class BibliotecaViewController: UIViewController {
         collectionView.prefetchDataSource = self
         collectionView.delegate = self
     }
+    
 }
+
+
+
 
 extension BibliotecaViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -36,6 +40,7 @@ extension BibliotecaViewController: UICollectionViewDataSource {
 
         let livro = biblioteca.livros[indexPath.row]
         cell.titLabel.text = livro.title
+        
 
         if let url = livro.thumbnailUrl {
             let options = ImageLoadingOptions(
@@ -45,10 +50,29 @@ extension BibliotecaViewController: UICollectionViewDataSource {
 
             Nuke.loadImage(with: url, options: options, into: cell.bookImage)
         }
-
+        
+        
+        cell.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap(_:))))
+        
         return cell
     }
+    
+
+    @objc func tap(_ sender: UITapGestureRecognizer) {
+        
+        let cell = sender.view as! LivroCell
+        let indexPath = collectionView?.indexPath(for: cell)
+        let livro = biblioteca.livros[indexPath!.row]
+
+        let bookDetail = storyboard?.instantiateViewController(withIdentifier: "BookDetailViewController") as! BookDetailViewController
+        bookDetail.livro = livro
+        navigationController?.pushViewController(bookDetail, animated: true)
+       
+    }
 }
+
+
+
 
 extension BibliotecaViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -66,6 +90,7 @@ extension BibliotecaViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: cellWidth, height: cellHeight)
     }
 }
+
 
 extension BibliotecaViewController: UICollectionViewDataSourcePrefetching {
     func collectionView(_ collectionView: UICollectionView, prefetchItemsAt indexPaths: [IndexPath]) {
